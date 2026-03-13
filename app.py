@@ -13,7 +13,7 @@ def load_artifacts():
 model, scaler = load_artifacts()
 
 # 2. Build the User Interface
-st.title("🏗️ Concrete Compressive Strength Predictor")
+st.title("Concrete Compressive Strength Predictor")
 st.write("Enter the concrete mix details below to predict its compressive strength.")
 
 # 3. Create a form for user inputs
@@ -51,4 +51,5 @@ if submit_button:
     prediction = model.predict(features_scaled)[0]
     
     # Display the result prominently
+
     st.success(f"### Predicted Compressive Strength: {prediction:.2f} MPa")

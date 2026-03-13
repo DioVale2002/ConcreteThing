@@ -1,12 +1,9 @@
-# [Project Name]
+
 
 ## 📌 Overview
 
-[Briefly describe what this project does. E.g., This project is a machine learning pipeline designed to predict/classify X based on Y.]
 
-While this model is currently deployed and live at [Insert Link Here], this repository contains the core pipeline — from raw data ingestion to the final saved model — along with instructions for running it locally.
 
----
 
 ## 🧠 How It Works: The ML Pipeline
 
